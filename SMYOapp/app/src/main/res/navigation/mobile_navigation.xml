@@ -15,7 +15,7 @@
         android:id="@+id/navigation_dashboard"
         android:name="smyo.app.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_mainPage" />
+        tools:layout="@layout/fragment_mainpage" />
 
     <fragment
         android:id="@+id/navigation_notifications"
