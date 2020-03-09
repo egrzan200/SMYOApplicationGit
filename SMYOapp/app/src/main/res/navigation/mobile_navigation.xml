@@ -9,17 +9,17 @@
         android:id="@+id/navigation_home"
         android:name="smyo.app.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_trading" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="smyo.app.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_mainPage" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="smyo.app.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_addoutfit" />
 </navigation>
