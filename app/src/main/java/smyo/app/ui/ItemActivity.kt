@@ -3,7 +3,8 @@ import kotlinx.android.synthetic.main.add_item.*
 
 class ItemActivity {
 
-    fun test(){
+    fun mainHandler(){
+        setContentView(R.layout.add_item)
     }
 
 }
