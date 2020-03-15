@@ -1,0 +1,2 @@
+rootProject.name='SMYOApp'
+include ':app'
