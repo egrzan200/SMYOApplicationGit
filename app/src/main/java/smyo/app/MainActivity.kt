@@ -24,8 +24,5 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        AddItemNavBtn.setOnClickListener({
-            setContentView(R.layout.add_item)
-        })
     }
 }
