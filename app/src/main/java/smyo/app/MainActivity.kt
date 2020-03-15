@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import kotlinx.android.synthetic.main.fragment_addoutfit.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,5 +23,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_trading, R.id.navigation_addoutfit))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        AddItemNavBtn.setOnClickListener({
+            setContentView(R.layout.add_item)
+        })
     }
 }
