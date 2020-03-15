@@ -1,13 +1,10 @@
 package smyo.app
 
-import android.content.ClipData
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.widget.Toast
-import smyo.app.ui.ItemObject
-import java.security.AccessControlContext
 
 val DATABASE_NAME = "SMYODB"
 

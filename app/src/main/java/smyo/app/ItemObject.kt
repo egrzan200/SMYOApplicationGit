@@ -1,4 +1,4 @@
-package smyo.app.ui
+package smyo.app
 
 class ItemObject {
     var id : Int = 0
