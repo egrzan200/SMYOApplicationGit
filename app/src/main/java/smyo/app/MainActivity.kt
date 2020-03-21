@@ -14,6 +14,8 @@ import androidx.navigation.ui.setupWithNavController
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.user_login.*
 import kotlinx.android.synthetic.main.user_registration.*
+import kotlinx.android.synthetic.main.fragment_addoutfit.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -75,10 +77,6 @@ class MainActivity : AppCompatActivity() {
             else
             Toast.makeText(this, "Username or password is incorrect", Toast.LENGTH_SHORT).show()
         }
-
-
-
-
 
     }
 
